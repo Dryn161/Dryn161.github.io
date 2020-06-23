@@ -1,0 +1,75 @@
+td,
+th,
+table {
+    border: 1px solid #000000;
+}
+
+table {
+    width: 1000px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+td {
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding: 70px;
+}
+
+.moz,
+.op,
+.saf,
+.ie9,
+.ie10,
+.ie11,
+.ed,
+.cr_yan {
+    background-color: #ffff00;
+}
+
+_::-moz-progress-bar,
+body:last-child .moz {
+    background: #008000;
+}
+
+@media all and (min-width:0\0) and (min-resolution:.001dpcm) {
+    .ie9 {
+        background: #008000;
+    }
+}
+
+.ie10 .td {
+    background: #008000;
+}
+
+_:-ms-fullscreen,
+:root .ie11 {
+    background: #008000;
+}
+
+_::-moz-svg-foreign-content,
+ :root .saf {
+    background: #008000;
+}
+
+
+/*Opera ≥ 9.5*/
+
+_:-o-prefocus,
+body:last-child .op {
+    background: #008000;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+    .cr_yan {
+        background: #008000;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .ed {
+        background: #008000;
+    }
+}
